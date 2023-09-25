@@ -1,7 +1,7 @@
 import Pokecard from "./Pokecard";
 
 
-function Pokedex({ pokemon }){
+function PokedexGame({ pokemon }){
   return (
     <div className="pokedex">
       {pokemon.map(mon => <Pokecard pokeData={mon}/>)};
@@ -10,4 +10,4 @@ function Pokedex({ pokemon }){
 
 }
 
-export default Pokedex;
+export default PokedexGame;
