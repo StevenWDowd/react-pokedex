@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poke-card {
+  border: black 1px solid;
+  display: flexbox;
+  /* flex: 100px; */
+  background-color: rgb(174, 187, 200);
+  margin: 10px;
+  /* min-width: 50px;
+  min-height: 80px; */
+  flex-basis: 22%;
+  /* max-width: 100px;
+  max-height: 160px; */
+}
+
+.name-field {
+  color: blue;
+}
