@@ -53,6 +53,12 @@
   flex-basis: 22%;
   /* max-width: 100px;
   max-height: 160px; */
+  transition: .2s;
+}
+
+.poke-card:hover {
+  transform: scale(1.25);
+
 }
 
 .pokecard-name-field {
